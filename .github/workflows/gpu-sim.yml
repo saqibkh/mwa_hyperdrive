@@ -6,6 +6,8 @@ name: GPU tests (simulated)
 # complements real-GPU testing and does not replace it.
 
 on:
+  push:
+    branches: [verify-gpu-sim]
   workflow_dispatch:
   pull_request:
     paths:
